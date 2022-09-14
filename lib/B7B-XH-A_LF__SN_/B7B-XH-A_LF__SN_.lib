@@ -1,0 +1,50 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# B7B-XH-A(LF)(SN)
+#
+DEF B7B-XH-A(LF)(SN) J 0 40 Y Y 1 L N
+F0 "J" 0 450 50 H V L BNN
+F1 "B7B-XH-A(LF)(SN)" 0 -500 50 H V L BNN
+F2 "JST_B7B-XH-A(LF)(SN)" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "JST Sales America Inc." 0 0 50 H I L BNN "MANUFACTURER"
+F5 "B7B-XH-A(LF)(SN)" 0 0 50 H I L BNN "SNAPEDA_PN"
+F6 "N/A" 0 0 50 H I L BNN "PARTREV"
+F7 "Manufacturer Recommendations" 0 0 50 H I L BNN "STANDARD"
+F8 "7 mm" 0 0 50 H I L BNN "MAXIMUM_PACKAGE_HEIGHT"
+DRAW
+P 2 0 0 10 0 350 50 400 N
+P 2 0 0 10 0 350 0 300 N
+P 2 0 0 10 0 300 0 -350 N
+P 2 0 0 10 0 -350 50 -400 N
+P 2 0 0 10 50 -400 300 -400 N
+P 2 0 0 10 300 -400 300 400 N
+P 2 0 0 10 300 400 50 400 N
+P 2 0 0 10 0 300 75 300 N
+S 24 287 87 312 0 0 0 F
+P 2 0 0 10 0 200 75 200 N
+S 24 187 87 212 0 0 0 F
+P 2 0 0 10 0 100 75 100 N
+S 24 87 87 112 0 0 0 F
+P 2 0 0 10 0 0 75 0 N
+S 24 -12 87 12 0 0 0 F
+P 2 0 0 10 0 -100 75 -100 N
+S 24 -112 87 -87 0 0 0 F
+P 2 0 0 10 0 -200 75 -200 N
+S 24 -212 87 -187 0 0 0 F
+P 2 0 0 10 0 -300 75 -300 N
+S 24 -312 87 -287 0 0 0 F
+X 1 1 -200 300 200 R 40 40 0 0 P 
+X 2 2 -200 200 200 R 40 40 0 0 P 
+X 3 3 -200 100 200 R 40 40 0 0 P 
+X 4 4 -200 0 200 R 40 40 0 0 P 
+X 5 5 -200 -100 200 R 40 40 0 0 P 
+X 6 6 -200 -200 200 R 40 40 0 0 P 
+X 7 7 -200 -300 200 R 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
